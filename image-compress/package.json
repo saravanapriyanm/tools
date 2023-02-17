@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "imagemin-cli": "^7.0.0",
+    "imageoptim-cli": "^3.0.7",
+    "node-images-compress-cli": "^1.2.0",
+    "tinypng-cli": "^0.0.7",
+    "webp-converter-cli": "^0.0.5"
+  },
+  "scripts": {
+    "tinypng": "tinypng images/ -k 3jKV0lTtbsftx5TW3C14CcBHWLtMBr7J",
+    "compress": "imagemin images/* --out-dir=mini",
+    "imageoptim": "imageoptim images/**/*",
+    "webpc": "webpc -r"
+  },
+  "devDependencies": {
+    "tiny-compress": "^1.0.0"
+  }
+}
