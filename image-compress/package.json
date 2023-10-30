@@ -7,7 +7,7 @@
     "webp-converter-cli": "^0.0.5"
   },
   "scripts": {
-    "tinypng": "tinypng images/ -k 3jKV0lTtbsftx5TW3C14CcBHWLtMBr7J",
+    "tinypng": "tinypng images/ -k {{get_key_from_https://tinypng.com/developers}}",
     "compress": "imagemin images/* --out-dir=mini",
     "imageoptim": "imageoptim images/**/*",
     "webpc": "webpc -r"
